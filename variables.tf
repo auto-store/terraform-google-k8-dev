@@ -28,3 +28,9 @@ variable "default_project" {
   description = "provider default project"
   type = string 
 }
+
+variable "project" {
+  description = "project"
+  type = string 
+}
+
