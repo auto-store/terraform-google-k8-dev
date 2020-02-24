@@ -24,3 +24,7 @@ variable "node_count" {
   type        = number
 }
 
+variable "default_project" {
+  description = "provider default project"
+  type = string 
+}

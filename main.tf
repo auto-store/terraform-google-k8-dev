@@ -1,4 +1,6 @@
-provider "google" {}
+provider "google" {
+  project = var.project 
+}
 
 resource "google_container_cluster" "primary" {
   name     = var.cluster_name 
